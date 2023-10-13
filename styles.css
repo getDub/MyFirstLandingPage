@@ -3,13 +3,13 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
-    font-family: Arial, Helvetica, sans-serif;
     padding: 20px 100px;
     margin: 0px;
     
@@ -41,7 +41,6 @@ body {
 .leftContent {
     display: flex;
     flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
     max-width: 350px;
 
 }
@@ -72,4 +71,17 @@ body {
     background-color: #eee;
     width: 500px;
     height: 250px;
+}
+
+.rando {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 800;
+    color: #1F2937;
+}
+.container2{
+    display: flex;
+    
+
 }
