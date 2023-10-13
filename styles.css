@@ -1,0 +1,25 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+    padding: 0px 100px;
+    
+}
+
+.logo {
+    font-size: 24px;
+    
+}
+
+.rightHeaderContent {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+}
