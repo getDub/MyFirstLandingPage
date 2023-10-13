@@ -2,19 +2,23 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
-    color: white;
-    padding: 0px 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 100px;
+    margin: 0px;
     
 }
 
 .logo {
     font-size: 24px;
+    color: #E5E7EB;
+    font-weight: 800;
     
 }
 
@@ -22,4 +26,50 @@ body {
     display: flex;
     gap: 20px;
     font-size: 18px;
+    color: #E5E7EB;
+}
+
+.bodyContainer1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 20px 100px;
+    /* align-content: center; */
+    
+}
+
+.leftContent {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 350px;
+
+}
+
+.heading1 {
+    font-size: 18px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.text1 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.btn1 button {
+    background-color: #3882F6;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 150px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.img1 {
+    background-color: #eee;
+    width: 500px;
+    height: 250px;
 }
